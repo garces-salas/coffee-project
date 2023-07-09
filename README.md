@@ -1,61 +1,43 @@
-# Coffee Project
+# **Coffee Project**
 
-Congratulations! You have landed your first development job! You have inherited
-a project from Fancy Coffee Company&copy;, and they want you to make
-improvements to it.
+Start your day with the perfect cup of coffee! Explore our website and discover a world of delightful flavors and aromatic blends. Whether you're a coffee connoisseur or a casual coffee lover, this website is designed to enhance your coffee experience.<br>
+<br>
+This is a web-based coffee website developed as a collaborative project with a partner. The primary goal of this project was to enhance the user experience and interface, focusing on displaying coffee information and enabling users to interact with the website effectively.<br>
 
-## Setup
 
-1. Create a Github organization and add your teammate.
-1. Fork this repository (Click on the "Fork" button on the top right of this
-   page) and select the new organization as a destination.
-1. Clone the forked repository from your organization.
-1. Open up the HTML file and check out the existing application.
-1. Read through the code and understand the existing code structure before you start to build the features.
+## **Features**
 
-## TODO
+**-Dynamic Display:** The website utilizes dynamic elements drawn from an object array to display coffee names and roast types. This allows for easy updating and maintenance of the coffee information.<br>
+**-Local Storage:** We have implemented local storage functionality, which enables users to save their search results and retrieve them later. This feature adds convenience and personalization to the user experience.<br>
+**-Coffee Creation:** Users have the ability to create new coffee types and roasts, expanding the available options. This feature allows for customization and keeps the website up-to-date with the latest coffee varieties.<br>
+**-Filtering Options:** To further enhance usability, we have incorporated filtering options by roast type. Users can filter the displayed coffee options by entering a key or selecting from a list. This feature provides a seamless browsing experience.
 
-- Update the HTML
+## **Skills**
 
-    Tables are a little old school, you need to refactor the code so that each
-    coffee is displayed in a `div` that contains a heading displaying the coffee
-    name, and the type of roast in a paragraph. Don't display the ids, these are
-    only for our application's internal use
+The following skills were utilized during the development of this project:
 
-- When the page loads, the coffees should be sorted by their ids in ascending
-  order
+**-Paired Programming:** We worked collaboratively as a team, employing paired programming techniques. This approach fostered efficient problem-solving and code sharing, resulting in a higher quality end product.<br>
+**-JavaScript:** The website's functionality and interactivity were implemented using JavaScript, a versatile programming language for web development.<br>
+**-HTML:** The structure and layout of the website were created using HTML, the standard markup language for web pages.<br>
+**-CSS: **Cascading Style Sheets (CSS) were used to enhance the visual presentation and styling of the website, ensuring a pleasant and cohesive user interface.
 
-- Add functionality to search through the coffees by name, and display only the
-  coffees that match the provided search term (You will need to add an input
-  field to the existing form for this)
 
-- Add functionality to update the displayed coffee as the user types into the
-  search box, or as soon as they select an option from the select.
+## **How to Use**
 
-**Bonus**
+To run locally, follow these steps:
 
-- Add an option to select all roasts for roast type
+1. Clone the repository to your local machine.<br>
+2. Open the project in your preferred web browser.<br>
+3. Build and run the project using your preferred Java development environment or build tools. <br>
+4. Use the filtering options to refine your search based on roast type.<br>
+5. Create new coffee types and roasts as desired. <br>
+6. Save and retrieve your search results using the local storage functionality.
 
-- Make your name search case insensitive
+Please note that the above steps are a general guideline, and you may need to modify them based on your specific development environment and requirements.
 
-- Allow the user to add new coffees to the page
+## **Contributors**
 
-    Create another form on the page that has an input for the coffee name, and
-    a select to choose the coffee roast. When the form is submitted, the new
-    coffee should appear on the page. (*Note that any new coffees you add will
-    be lost when you refresh the page, for an extra challenge, research
-    how `localStorage` works and see if you can find a way to persist the data*)
+[Gianna Garces](https://github.com/Gianna-Garces) <br> 
+[Daniela Picon Salas](https://github.com/danielapsalas) <br> 
+## **We hope you enjoy every sip and find your new favorite brew!**
 
-- Style it!
-
-    The page looks pretty plain as it is, and the refactoring we did above to
-    use `div`s for coffees should give us more flexibility in styling. (*Hint:
-    the styling shown in the example below can be achieved purely with bootstrap
-    classes, that is, without custom CSS*)
-
-## Example
-
-Here is an example demonstrating the above functionality. Your application might
-look different, but should have the same features.
-
-![Cofee Project Demo](demo.gif)
